@@ -1,6 +1,7 @@
 // What this file does is it will give rigidbodies with continuous collision detection proper collisions, when Unity itself fails.
 // It might occur that a rigidbody hits a slanted angle at a high speed, and will bounce, but not rotate properly.
 // This script fixes that.
+// It also takes into account any physics materials applies to the rigidbody's collider.
 
 // It kind of works with dynamic rigidbodies, but they're not 100% supported and I can't guarantee proper resolving in such case.
 // Copright Yannic Geurts 2017, you're free to use this for whatever as long as you give credits.
